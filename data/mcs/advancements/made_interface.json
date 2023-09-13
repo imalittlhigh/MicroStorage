@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:clock"
+              ],
+              "nbt": "{mcs_interface_item:1b}"
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:barrel",
+                  "minecraft:chest",
+                  "minecraft:trapped_chest"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+    "rewards": {
+      "function": "mcs:build/interface"
+    }
+  }
+  

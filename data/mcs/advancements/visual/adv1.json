@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Crafting Recipes"
+        },
+        "description": {
+            "text": "How to craft Micro Storage parts"
+        },
+        "icon": {
+            "item": "minecraft:crafting_table"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "mcs:visual/root"
+}

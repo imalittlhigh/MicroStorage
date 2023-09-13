@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Management called"
+        },
+        "description": {
+            "text": "Craft a Micro Storage Interface"
+        },
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mcs:visual/root"
+}

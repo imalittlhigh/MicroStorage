@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Micro Storage"
+        },
+        "description": {
+            "text": "Used to expand the storage of a connected interface"
+        },
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "mcs:visual/adv1"
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Outsourcing"
+        },
+        "description": {
+            "text": "Place a Micro Storage"
+        },
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mcs:visual/player/craft_storage"
+}

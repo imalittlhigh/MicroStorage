@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Interface"
+        },
+        "description": {
+            "text": "Used to access storage"
+        },
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "mcs:visual/adv1"
+}

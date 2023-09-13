@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": " "
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "mcs:visual/adv6"
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Store the world"
+        },
+        "description": {
+            "text": "Place 1000 Micro Storages"
+        },
+        "icon": {
+            "item": "minecraft:black_shulker_box"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mcs:visual/player/build_storage_100"
+}

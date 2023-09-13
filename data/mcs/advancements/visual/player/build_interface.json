@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Constructive criticism"
+        },
+        "description": {
+            "text": "Use a Micro Storage Interface on a Barrel, Chest or Trapped Chest"
+        },
+        "icon": {
+            "item": "minecraft:barrel"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mcs:visual/player/craft_interface"
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Warehouse construction"
+        },
+        "description": {
+            "text": "Place 100 Micro Storages"
+        },
+        "icon": {
+            "item": "minecraft:red_shulker_box"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mcs:visual/player/build_storage"
+}
