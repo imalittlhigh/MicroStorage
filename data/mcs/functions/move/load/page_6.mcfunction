@@ -7,17 +7,17 @@
 execute as @s[tag=mcs.marker.interface.storage.+x] at @s run data modify block ~ ~ ~ Items set from block ~6 ~ ~ Items
 execute as @s[tag=mcs.marker.interface.storage.+x] at @s run data remove block ~6 ~ ~ Items
 execute as @s[tag=mcs.marker.interface.storage.-x] at @s run data modify block ~ ~ ~ Items set from block ~-6 ~ ~ Items
-execute as @s[tag=mcs.marker.interface.storage.+x] at @s run data remove block ~-6 ~ ~ Items
+execute as @s[tag=mcs.marker.interface.storage.-x] at @s run data remove block ~-6 ~ ~ Items
 
 execute as @s[tag=mcs.marker.interface.storage.+y] at @s run data modify block ~ ~ ~ Items set from block ~ ~6 ~ Items
 execute as @s[tag=mcs.marker.interface.storage.+y] at @s run data remove block ~ ~6 ~ Items
 execute as @s[tag=mcs.marker.interface.storage.-y] at @s run data modify block ~ ~ ~ Items set from block ~ ~-6 ~ Items
-execute as @s[tag=mcs.marker.interface.storage.+y] at @s run data remove block ~ ~-6 ~ Items
+execute as @s[tag=mcs.marker.interface.storage.-y] at @s run data remove block ~ ~-6 ~ Items
 
 execute as @s[tag=mcs.marker.interface.storage.+z] at @s run data modify block ~ ~ ~ Items set from block ~ ~ ~6 Items
 execute as @s[tag=mcs.marker.interface.storage.+z] at @s run data remove block ~ ~ ~6 Items
 execute as @s[tag=mcs.marker.interface.storage.-z] at @s run data modify block ~ ~ ~ Items set from block ~ ~ ~-6 Items
-execute as @s[tag=mcs.marker.interface.storage.+z] at @s run data remove block ~ ~ ~-6 Items
+execute as @s[tag=mcs.marker.interface.storage.-z] at @s run data remove block ~ ~ ~-6 Items
 
 execute if data block ~ ~ ~ Items.[{Slot:25b}] run summon item ~ ~ ~ {Tags:["mcs.item.safe.25"],Item:{id:"minecraft:stone",Count:1b}}
 
